@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Developer Projects Showcase</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#141414",
+                        "deno-bg": "#121212", 
+                        "deno-surface": "#1E1E1E",
+                        "deno-blue": "#3B82F6",
+                        "deno-pink": "#EC4899",
+                        "deno-text-muted": "#A3A3A3",
+                        "deno-border": "#333333",
+                        "background-light": "#ffffff",
+                        "background-dark": "#0a0a0a",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem", 
+                        "lg": "0.5rem", 
+                        "xl": "0.75rem", 
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        .card-gradient-hover:hover {
+            background: linear-gradient(to bottom right, #262626, #1a1a1a);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #60A5FA, #E879F9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-white font-display antialiased">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-deno-border px-6 py-4 lg:px-40 bg-deno-bg sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+<div class="flex items-center gap-4 text-white">
+<div class="size-8 flex items-center justify-center bg-white text-black rounded-lg font-bold font-mono">
+<span class="text-lg">D</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">DevPortfolio</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium leading-normal text-deno-text-muted hover:text-white transition-colors" href="#">Projects</a>
+<a class="text-sm font-medium leading-normal text-deno-text-muted hover:text-white transition-colors" href="#">Stack</a>
+<a class="text-sm font-medium leading-normal text-deno-text-muted hover:text-white transition-colors" href="#">About</a>
+</nav>
+<a class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-9 px-4 bg-white text-black text-sm font-bold leading-normal hover:bg-neutral-200 transition-colors" href="#">
+<span class="truncate">Resume</span>
+</a>
+</div>
+</header>
+<main class="flex-grow flex flex-col items-center w-full bg-background-dark">
+<div class="layout-content-container flex flex-col max-w-[1100px] w-full px-6 lg:px-0 py-16">
+<div class="flex flex-col gap-6 pb-12 items-start">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-deno-border bg-deno-surface text-xs font-mono text-deno-text-muted">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    Open to work
+                </div>
+<h1 class="text-white text-4xl font-extrabold leading-tight tracking-[-0.033em] md:text-6xl max-w-3xl">
+                    Building scalable <span class="text-gradient">web applications</span> &amp; cloud infrastructure.
+                </h1>
+<p class="text-deno-text-muted text-lg font-normal leading-relaxed max-w-2xl">
+                    I'm a Full Stack Developer focused on performance and type safety. Here are a few projects I've worked on recently.
+                </p>
+</div>
+<div class="flex gap-2 pb-10 flex-wrap border-b border-deno-border mb-10">
+<button class="flex h-8 items-center justify-center gap-x-2 rounded-full bg-white text-black px-4 hover:opacity-90 transition-opacity">
+<p class="text-sm font-bold leading-normal">All</p>
+</button>
+<button class="flex h-8 items-center justify-center gap-x-2 rounded-full border border-deno-border bg-transparent text-deno-text-muted px-4 hover:border-neutral-500 hover:text-white transition-colors">
+<p class="text-sm font-medium leading-normal">Full Stack</p>
+</button>
+<button class="flex h-8 items-center justify-center gap-x-2 rounded-full border border-deno-border bg-transparent text-deno-text-muted px-4 hover:border-neutral-500 hover:text-white transition-colors">
+<p class="text-sm font-medium leading-normal">Open Source</p>
+</button>
+<button class="flex h-8 items-center justify-center gap-x-2 rounded-full border border-deno-border bg-transparent text-deno-text-muted px-4 hover:border-neutral-500 hover:text-white transition-colors">
+<p class="text-sm font-medium leading-normal">DevTools</p>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-12">
+<article class="group relative flex flex-col overflow-hidden rounded-xl border border-deno-border bg-deno-surface transition-all duration-300 hover:border-neutral-500">
+<div class="relative w-full aspect-[16/9] overflow-hidden bg-neutral-900 border-b border-deno-border">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-700 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVH9ELFYLjS_JsZfh_1IMoV46a89ob1r5QrFLkn617qzawGOFXA3d1XobPSh3t7aBnQjjQsrgD0PNw8LjoXOO_1cCUVDCp3ikYXtC28ayjUpUNTyJZ8bXQRfdA6yfb48a3UxpeSLyT86tzmq4oZ8hV-CJcdq9f41rZKkEeFEE2197NtG4ALihh8OtgjQwCuwSWM02oaO4u7O8XjDOKtXVjSxlJAxCbAJEvap8EhBydPvfR8LRwzLW3OP3Y9C2MAUV6dHRUvAkUzx6s"); opacity: 0.8;'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-deno-surface to-transparent opacity-60"></div>
+<div class="absolute top-4 right-4 flex gap-2">
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="View Source">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="Live Demo">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">NeoBank API</h3>
+<span class="text-xs font-mono text-emerald-400 border border-emerald-400/20 bg-emerald-400/10 px-2 py-0.5 rounded">Live</span>
+</div>
+<p class="text-deno-text-muted text-sm leading-relaxed mb-6 line-clamp-2">
+                            A high-performance banking API built with Rust. Handles concurrent transactions with ACID compliance and real-time fraud detection via webhooks.
+                        </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Rust</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">gRPC</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">PostgreSQL</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Docker</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col overflow-hidden rounded-xl border border-deno-border bg-deno-surface transition-all duration-300 hover:border-neutral-500">
+<div class="relative w-full aspect-[16/9] overflow-hidden bg-neutral-900 border-b border-deno-border">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-700 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpvtvA40ZcieuSlR-t--42fMduIL1H3Evba99kkK7wIc4AoNlVYqUYDgW6uF_D9oyVyH-la_BPrP2hFgMwg1WToSDpZw4QP-nsPEZq5aAuBNp0y9wY3Evs-ZW03d4Ur9Y0jUTWdNNM4Wf0tUbgYj8TWPiRbsAmWKhXZKfTGRiVrOw627kRLC_ZtQzDkQnjXrIq-lmTMah7HUeVFjODrTUPNy4MwWQ24LIdnHFsT83zceRgrL8fm_EuZ7uLejKpZJT9qmkSTILcii-4"); opacity: 0.8;'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-deno-surface to-transparent opacity-60"></div>
+<div class="absolute top-4 right-4 flex gap-2">
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="View Source">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="Live Demo">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">Luxe E-commerce</h3>
+<span class="text-xs font-mono text-neutral-400 border border-neutral-700 bg-neutral-800 px-2 py-0.5 rounded">v2.0</span>
+</div>
+<p class="text-deno-text-muted text-sm leading-relaxed mb-6 line-clamp-2">
+                            Headless e-commerce solution using Next.js 14 and Shopify Storefront API. Features include optimistic UI updates, edge caching, and AI-powered search.
+                        </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Next.js</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">TypeScript</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Tailwind</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Redis</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col overflow-hidden rounded-xl border border-deno-border bg-deno-surface transition-all duration-300 hover:border-neutral-500">
+<div class="relative w-full aspect-[16/9] overflow-hidden bg-neutral-900 border-b border-deno-border">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-700 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZj-Fq5PQJ04f1mZV3NrcQJy7yJrcRysX2GYBSnOxqcscKkyoJkvWNhGXUmY4lYDZiKfzSys4dkq-EcVUmTAY8WG3UFK9gdL6lOHwCn1R2o7uH3pw1sCM50kKwVh-lDCX-bFJBFy9atQxGLgsBjleweRBA3sgt1QF8LUZH7raiCKY3D_aY08V_UYYdKPzh7hZZm4dm0kuAyiBum0jfUCW2GDEOOFG6wlXzAsap9z9JGofKWG908qg3vzpw9NnDkY8xAqHKFZmfHo0U"); opacity: 0.8;'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-deno-surface to-transparent opacity-60"></div>
+<div class="absolute top-4 right-4 flex gap-2">
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="View Source">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="Live Demo">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">DataViz Dashboard</h3>
+<span class="text-xs font-mono text-amber-400 border border-amber-400/20 bg-amber-400/10 px-2 py-0.5 rounded">Beta</span>
+</div>
+<p class="text-deno-text-muted text-sm leading-relaxed mb-6 line-clamp-2">
+                            B2B SaaS analytics platform handling 1M+ data points. Utilizes D3.js for custom visualizations and WebSockets for live data streaming.
+                        </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">React</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">D3.js</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Python</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">AWS</span>
+</div>
+</div>
+</article>
+<article class="group relative flex flex-col overflow-hidden rounded-xl border border-deno-border bg-deno-surface transition-all duration-300 hover:border-neutral-500">
+<div class="relative w-full aspect-[16/9] overflow-hidden bg-neutral-900 border-b border-deno-border">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-700 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDnSCVaraX1hkUhzi09lHuHNRElvjIp2uMH2q-mGAOXCjsl_V5P7-lXCO10j-D7psYXTyV6sbq2V9m2kljuw8UI-ugebdj95otYY0-k8w711bcf7GciXg8Mh94b6OAToetRqLzJ3bsOF-UBew-WJXP_xRNoO8CcAToAGvYjgmLcyWwaNJX3aKA4LyPJo86tThUJ1DXmmwY676ke4qX3f5HR5zT7bIiZQtF2pMMiifGZk9y22dsf4DGZuZ6MPAzrNx8GwnX1PFzHGfRI"); opacity: 0.8;'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-deno-surface to-transparent opacity-60"></div>
+<div class="absolute top-4 right-4 flex gap-2">
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="View Source">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+<a class="p-2 rounded-full bg-black/50 backdrop-blur-sm border border-white/10 hover:bg-white hover:text-black transition-colors" href="#" title="Live Demo">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-6">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">SmartHome IoT</h3>
+</div>
+<p class="text-deno-text-muted text-sm leading-relaxed mb-6 line-clamp-2">
+                            IoT controller app connecting to ESP32 devices via MQTT. Features include automated scheduling, energy usage tracking, and local network discovery.
+                        </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">React Native</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">MQTT</span>
+<span class="inline-flex items-center rounded-md bg-[#2A2A2A] px-2 py-1 text-xs font-medium text-neutral-300 ring-1 ring-inset ring-white/10 font-mono">Node.js</span>
+</div>
+</div>
+</article>
+</div>
+<div class="w-full p-8 rounded-2xl bg-deno-surface border border-deno-border flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex flex-col gap-2">
+<h3 class="text-2xl font-bold text-white">Check out my other projects</h3>
+<p class="text-deno-text-muted">I have 50+ repositories on GitHub ranging from CLI tools to full-stack experiments.</p>
+</div>
+<a class="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-white text-black font-bold hover:bg-neutral-200 transition-colors" href="#">
+<span>View GitHub Profile</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+</div>
+</main>
+<footer class="w-full flex justify-center bg-deno-bg border-t border-deno-border">
+<div class="flex flex-col max-w-[1100px] w-full px-6 py-12">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2">
+<h2 class="text-white text-xl font-bold">Let's build something great.</h2>
+<p class="text-deno-text-muted text-sm">Open for freelance and full-time opportunities.</p>
+</div>
+<div class="flex gap-4">
+<a class="text-deno-text-muted hover:text-white transition-colors" href="#">Twitter</a>
+<a class="text-deno-text-muted hover:text-white transition-colors" href="#">LinkedIn</a>
+<a class="text-deno-text-muted hover:text-white transition-colors" href="#">Email</a>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-deno-border flex justify-between items-center text-xs text-deno-text-muted">
+<p>© 2024 Developer Portfolio. All rights reserved.</p>
+<p>Designed with <span class="text-deno-blue">♥</span></p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
