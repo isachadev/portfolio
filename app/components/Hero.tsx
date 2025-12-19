@@ -128,7 +128,7 @@ export function Hero() {
                 <div className="relative w-full h-full rounded-full p-1 border border-border bg-surface shadow-2xl overflow-hidden group">
                   <div 
                     className="w-full h-full rounded-full bg-cover bg-center transition-all duration-700 ease-in-out scale-100 group-hover:scale-105 shadow-inner" 
-                    style={{ backgroundImage: "url('/profile.png')" }}
+                    style={{ backgroundImage: "url('/portfolio/profile.png')" }}
                   >
                   </div>
                 </div>

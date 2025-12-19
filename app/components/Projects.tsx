@@ -6,7 +6,7 @@ export function Projects() {
       role: "Mobile Developer",
       description: "Developed an Android logistics app for efficient delivery management. Features dynamic forms for driver registration and real-time task updates, optimized for performance in low-resource environments.",
       tech: ["React Native", "TypeScript", "Supabase", "PostgreSQL"],
-      image: "/projects/kaypikani-project.png",
+      image: "/portfolio/projects/kaypikani-project.png",
     },
     {
       id: "payroll-system",
@@ -14,7 +14,7 @@ export function Projects() {
       role: "Full Stack Developer",
       description: "Automated teacher scheduling, attendance tracking, and precise payroll calculation for a university department. Built with a focus on administrative efficiency.",
       tech: ["Laravel", "Livewire", "PHP", "MySQL"],
-      image: "/projects/umss-project.png",
+      image: "/portfolio/projects/umss-project.png",
     },
     {
       id: "health-age",
@@ -22,7 +22,7 @@ export function Projects() {
       role: "Technical Lead & Full-Stack Engineer",
       description: "Developed a secure health analytics platform that calculates 'Health Age' through complex deterministic algorithms, featuring a React-based dashboard and a robust Flask API.",
       tech: ["React.js", "Python (Flask)", "PostgreSQL", "JWT", "Railway"],
-      image: "/projects/healthage-project.png",
+      image: "/portfolio/projects/healthage-project.png",
     },
     {
       id: "property-calendar",
@@ -30,7 +30,7 @@ export function Projects() {
       role: "Full Stack Developer (Desktop & Web)",
       description: "A high-performance management system for real estate agents. Built as a cross-platform desktop application, it functions like a specialized Google Calendar for property bookings and management.",
       tech: ["Next.js", "Tauri", "SQLite", "TypeScript", "Tailwind"],
-      image: "/projects/propertycalendar-project.png",
+      image: "/portfolio/projects/propertycalendar-project.png",
     },
   ];
 
