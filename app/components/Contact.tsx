@@ -63,7 +63,7 @@ export function Contact() {
         {/* Discreet Verified Link */}
         <div className="mt-12 flex justify-start">
           <a 
-            href="https://www.upwork.com/freelancers/isaiasdavidc" 
+            href="https://www.upwork.com/freelancers/~0146a0e54d59da5c67?mp_source=share" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex items-center gap-2 text-secondary hover:text-white transition-colors text-xs font-mono tracking-wider"

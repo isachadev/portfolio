@@ -64,7 +64,7 @@ export function Hero() {
                   <span>LinkedIn</span>
                 </a>
                 <a
-                  href="https://www.upwork.com/freelancers/isaiasdavidc"
+                  href="https://www.upwork.com/freelancers/~0146a0e54d59da5c67?mp_source=share"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-lg h-11 px-6 bg-green-600/10 border border-green-600/30 text-green-500 hover:bg-green-600/20 text-sm font-bold transition-all"
@@ -110,10 +110,10 @@ export function Hero() {
             <div className="flex flex-wrap sm:flex-nowrap items-center gap-6 sm:gap-10 pt-8 border-t border-border w-full">
               <div className="flex flex-col gap-1">
                 <span className="text-3xl font-bold text-white font-mono">
-                  1+
+                  2+
                 </span>
                 <span className="text-xs text-secondary uppercase tracking-wider font-semibold">
-                  Year Exp.
+                  Years Exp.
                 </span>
               </div>
 
@@ -141,11 +141,11 @@ export function Hero() {
                     workspace_premium
                   </span>
                   <span className="text-3xl font-bold text-white font-mono">
-                    Rising
+                    Top
                   </span>
                 </div>
                 <span className="text-xs text-secondary uppercase tracking-wider font-semibold">
-                  Talent on Upwork
+                  Rated on Upwork
                 </span>
               </div>
             </div>
